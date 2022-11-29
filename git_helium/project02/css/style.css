@@ -1,0 +1,210 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Start */
+
+.form {
+  width: 1440px;
+  height: 1200px;
+  padding: 50px 627px 77px 11px;
+  background-color: #fafafa;
+}
+
+.form-item__first {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.form-element__input {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+  font-size: 24px;
+  line-height: 1.1;
+  text-indent: 20px;
+}
+
+.form-element__label {
+  padding-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.legend {
+  padding-bottom: 56px;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.form-item__select {
+  height: 56px;
+  font-size: 24px;
+  line-height: 1.1;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  padding-left: 20px;
+  cursor: pointer;
+  appearance: none;
+  background: #e6e6e6 url(../img/shape.svg) no-repeat right;
+  background-position-x: calc(100% - 18px);
+}
+
+.form-item__second {
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+ .radio-item:nth-child(even) {
+  margin-bottom: 15px;
+} 
+
+.form-element__span {
+  font-size: 24px;
+  line-height: 1.1;
+  padding-bottom: 29px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+
+.radio-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.radio-label {
+  display: block;
+  font-size: 20px;
+  line-height: 1.1;
+  padding-left: 11px;
+}
+
+.form-item__third {
+  margin-bottom: 19px;
+}
+
+.form-item__textarea {
+    width: 100%;
+    resize: none;
+    height: 96px;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    border: 2px solid #808080;
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+.textarea-label {
+  display: block;
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.form-item__fourth {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.checkbox {
+  width: 32px;
+  height: 32px;
+}
+
+.checkbox-label {
+  font-size: 20px;
+  line-height: 1.1;
+  margin-left: 11px;
+}
+
+.form-item__five {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-reset, .form-submit {
+  width: 360px;
+  height: 75px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 0px solid #808080;
+  font-size: 24px;
+  line-height: 1.1;
+  color: #808080;
+  cursor: pointer;
+}
+
+.form-reset:hover, .form-submit:hover{
+  background-color: #000000;
+  border: 0px solid #808080;
+  color: #ffffff;;
+}

@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20" width="22" height="20">
+	<title>Shape 2</title>
+	<style>
+		.s0 { fill: #808080;stroke: #808080;stroke-width: 2 } 
+	</style>
+	<path id="Shape 2" class="s0" d="m8.1 3.4h5 5l-7.5 13-7.5-13h5z"/>
+</svg>
